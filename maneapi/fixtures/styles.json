@@ -1,0 +1,23 @@
+[
+    {
+        "model": "maneapi.hairstyle",
+        "pk": 1,
+        "fields": {
+            "label": "aut nesciunt qui"
+        }
+    },
+    {
+        "model": "maneapi.hairstyle",
+        "pk": 2,
+        "fields": {
+            "label": "maxime similique pariatur"
+        }
+    },
+    {
+        "model": "maneapi.hairstyle",
+        "pk": 3,
+        "fields": {
+            "label": "earum sapiente sunt"
+        }
+    }
+]

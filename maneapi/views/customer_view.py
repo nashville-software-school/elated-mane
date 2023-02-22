@@ -69,5 +69,5 @@ class CustomerSerializer(serializers.ModelSerializer):
 
     class Meta:
         """JSON serializer for customer creator"""
-        model = User
+        model = Customer
         fields = ('id', 'stylist', 'name', 'date_created',)

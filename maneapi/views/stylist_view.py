@@ -4,6 +4,14 @@ from rest_framework.response import Response
 from rest_framework.viewsets import ViewSet
 from django.contrib.auth.models import User
 
+"""
+Users (un:pwd)
+-----------------
+meg:ducharme
+madi:peper
+ryna:tanay
+"""
+
 
 class StylistView(ViewSet):
     """Viewset for stylists"""
@@ -55,4 +63,4 @@ class StylistSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = User
-        fields = ('id', 'first_name', 'last_name', 'email',)
+        fields = ('id', 'first_name', 'last_name', 'email', 'username',)
