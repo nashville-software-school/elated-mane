@@ -4,13 +4,18 @@ from django.urls import path
 
 from rest_framework import routers
 from maneapi.views import register_user, login_user
-from maneapi.views import StylistView, CustomerView, EquipmentView
+from maneapi.views import (
+    StylistView, CustomerView, EquipmentView,
+    EquipmentTypeView, AppointmentView
+)
 
 # pylint: disable=invalid-name
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'stylists', StylistView, 'stylist')
 router.register(r'customers', CustomerView, 'customer')
+router.register(r'appointments', AppointmentView, 'appointment')
 router.register(r'equipment', EquipmentView, 'equipment')
+router.register(r'equipmenttypes', EquipmentTypeView, 'equipmenttype')
 
 urlpatterns = [
     path('', include(router.urls)),

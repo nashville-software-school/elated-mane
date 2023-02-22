@@ -1,23 +1,47 @@
 [
     {
-        "model": "maneapi.hairstyle",
+        "model": "maneapi.customer",
         "pk": 1,
         "fields": {
-            "label": "aut nesciunt qui"
+            "name": "Jenna Solis",
+            "stylist": 3,
+            "date_created": "2022-11-08"
         }
     },
     {
-        "model": "maneapi.hairstyle",
+        "model": "maneapi.customer",
         "pk": 2,
         "fields": {
-            "label": "maxime similique pariatur"
+            "name": "Bryan Nilson",
+            "stylist": 5,
+            "date_created": "2022-11-08"
         }
     },
     {
-        "model": "maneapi.hairstyle",
+        "model": "maneapi.customer",
         "pk": 3,
         "fields": {
-            "label": "earum sapiente sunt"
+            "name": "Emily Lemmon",
+            "stylist": 4,
+            "date_created": "2022-11-08"
+        }
+    },
+    {
+        "model": "maneapi.customer",
+        "pk": 4,
+        "fields": {
+            "name": "Scott Silver",
+            "stylist": 4,
+            "date_created": "2022-11-08"
+        }
+    },
+    {
+        "model": "maneapi.customer",
+        "pk": 5,
+        "fields": {
+            "name": "Leah Gwin Hoefling",
+            "stylist": 3,
+            "date_created": "2022-11-08"
         }
     }
 ]
