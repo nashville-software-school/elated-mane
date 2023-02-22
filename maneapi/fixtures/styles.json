@@ -3,21 +3,21 @@
         "model": "maneapi.hairstyle",
         "pk": 1,
         "fields": {
-            "label": "aut nesciunt qui"
+            "label": "Pixie"
         }
     },
     {
         "model": "maneapi.hairstyle",
         "pk": 2,
         "fields": {
-            "label": "maxime similique pariatur"
+            "label": "Bob"
         }
     },
     {
         "model": "maneapi.hairstyle",
         "pk": 3,
         "fields": {
-            "label": "earum sapiente sunt"
+            "label": "Curly"
         }
     }
 ]

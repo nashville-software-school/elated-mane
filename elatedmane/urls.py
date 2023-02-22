@@ -6,7 +6,7 @@ from rest_framework import routers
 from maneapi.views import register_user, login_user
 from maneapi.views import (
     StylistView, CustomerView, EquipmentView,
-    EquipmentTypeView, AppointmentView
+    EquipmentTypeView, AppointmentView, StyleView
 )
 
 # pylint: disable=invalid-name
@@ -16,6 +16,7 @@ router.register(r'customers', CustomerView, 'customer')
 router.register(r'appointments', AppointmentView, 'appointment')
 router.register(r'equipment', EquipmentView, 'equipment')
 router.register(r'equipmenttypes', EquipmentTypeView, 'equipmenttype')
+router.register(r'styles', StyleView, 'style')
 
 urlpatterns = [
     path('', include(router.urls)),

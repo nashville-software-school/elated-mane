@@ -1,6 +1,6 @@
 #!/bin/bash
 
-rm -rf levelupapi/migrations
+rm -rf maneapi/migrations
 rm db.sqlite3
 python manage.py migrate
 python manage.py makemigrations maneapi

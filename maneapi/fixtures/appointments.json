@@ -3,7 +3,7 @@
         "model": "maneapi.appointment",
         "pk": 1,
         "fields": {
-            "customer": 4,
+            "customer": 2,
             "prepaid": true,
             "appointment_date": "2023-02-02"
         }
@@ -12,7 +12,7 @@
         "model": "maneapi.appointment",
         "pk": 2,
         "fields": {
-            "customer": 3,
+            "customer": 4,
             "prepaid": false,
             "appointment_date": "2023-02-02"
         }
@@ -57,7 +57,7 @@
         "model": "maneapi.appointment",
         "pk": 7,
         "fields": {
-            "customer": 4,
+            "customer": 1,
             "prepaid": false,
             "appointment_date": "2023-02-02"
         }
@@ -75,7 +75,7 @@
         "model": "maneapi.appointment",
         "pk": 9,
         "fields": {
-            "customer": 3,
+            "customer": 1,
             "prepaid": false,
             "appointment_date": "2023-02-02"
         }
@@ -84,7 +84,7 @@
         "model": "maneapi.appointment",
         "pk": 10,
         "fields": {
-            "customer": 5,
+            "customer": 2,
             "prepaid": false,
             "appointment_date": "2023-02-02"
         }
