@@ -5,7 +5,6 @@
         "fields": {
             "name": "Jenna Solis",
             "stylist": 3,
-            "style": 2,
             "date_created": "2022-11-08"
         }
     },
@@ -15,7 +14,6 @@
         "fields": {
             "name": "Bryan Nilson",
             "stylist": 5,
-            "style": 1,
             "date_created": "2022-11-08"
         }
     },
@@ -25,7 +23,6 @@
         "fields": {
             "name": "Emily Lemmon",
             "stylist": 4,
-            "style": 3,
             "date_created": "2022-11-08"
         }
     },
@@ -35,7 +32,6 @@
         "fields": {
             "name": "Scott Silver",
             "stylist": 4,
-            "style": 1,
             "date_created": "2022-11-08"
         }
     },
@@ -45,7 +41,6 @@
         "fields": {
             "name": "Leah Gwin Hoefling",
             "stylist": 3,
-            "style": 2,
             "date_created": "2022-11-08"
         }
     }
